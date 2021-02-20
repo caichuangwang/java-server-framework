@@ -2,7 +2,7 @@ package com.jsf.common.exception;
 
 /**
  * @ClassName JsfServiceException
- * @Description
+ * @Description 服务层异常类
  * @Author caicw
  * @Date 2021/2/20 17:23
  */

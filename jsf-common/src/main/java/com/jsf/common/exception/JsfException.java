@@ -1,16 +1,18 @@
 package com.jsf.common.exception;
 
+import com.jsf.common.enums.JsfEnum;
+
 /**
  * @ClassName JsfException
- * @Description
+ * @Description 全局异常类
  * @Author caicw
  * @Date 2021/2/20 17:23
  */
 public class JsfException extends RuntimeException {
     /**
-     * 异常代码
+     * 异常代码,默认系统异常
      */
-    private int code;
+    private int code = JsfEnum.SERVERERROR.getCode();
 
     public JsfException() {
         super();

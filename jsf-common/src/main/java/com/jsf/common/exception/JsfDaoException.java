@@ -2,7 +2,7 @@ package com.jsf.common.exception;
 
 /**
  * @ClassName JsfDaoException
- * @Description
+ * @Description 数据访问层异常类
  * @Author caicw
  * @Date 2021/2/20 17:23
  */
